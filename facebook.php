@@ -13,12 +13,12 @@
           <h1 class="logo">Facebook</h1>
           <p>Connect with friends and the world around you on Facebook.</p>
         </div>
+        
           <form  action="index.php" method="post">
             <input type="text" name="username" placeholder="Email or Phone Number" required />
             <input type="password" name="psd" placeholder="Password" required>
             <button class="login">Log In</button>
-            <a href="#">Forgot Password ?</a>
-            <hr>
+            <a href="#">Forgot Password ?</a><hr>
             <button class="create-account">Create New Account</button>
           </form>
       </div>
